@@ -1,8 +1,12 @@
 import React from "react";
 import Hero from "../Components/Hero";
 import Mycontainer from "../Components/Mycontainer";
+import { useLoaderData } from "react-router";
+import PopularSkill from "../Components/PopularSkill";
 
 const Home = () => {
+  const skillsData = useLoaderData();
+  console.log(skillsData);
   return (
     <div>
       <div className="text-center my-11 space-y-2">
@@ -19,6 +23,13 @@ const Home = () => {
       </div>
       <Mycontainer>
         <Hero></Hero>
+
+        <section className="popularSkill my-[150px]">
+          <h1 className="text-3xl font-bold text-primary text-center my-10">
+            Popular Skills
+          </h1>
+          <PopularSkill skillsData={skillsData}></PopularSkill>
+        </section>
       </Mycontainer>
     </div>
   );
