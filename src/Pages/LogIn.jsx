@@ -1,16 +1,27 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router";
 import { Authcontext } from "../Context/AuthContext";
 import toast from "react-hot-toast";
+import { Navigate } from "react-router";
 
 const LogIn = () => {
   const [showPass, setShowPass] = useState(false);
   const { signIn, setUser, creatUserWithGoogle, setLoading } =
     useContext(Authcontext);
   const navigate = useNavigate();
+  const emailRef = useRef();
 
+  // forget pass handle
+  const handleForgetPass = (e) => {
+    e.preventDefault();
+    const email = emailRef.current.value;
+    console.log(email);
+    navigate("/forgetPass", { state: { email } });
+  };
+
+  // handle log in
   const handleLogIn = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -29,6 +40,7 @@ const LogIn = () => {
       });
   };
 
+  // handle google signin
   const handleGoogleSign = () => {
     creatUserWithGoogle()
       .then((res) => {
@@ -44,6 +56,7 @@ const LogIn = () => {
       });
   };
 
+  // hadle show password
   const handleShowPass = (e) => {
     e.preventDefault();
     setShowPass(!showPass);
@@ -63,6 +76,7 @@ const LogIn = () => {
                 className="input placeholder:text-gray-400"
                 placeholder="Email"
                 name="email"
+                ref={emailRef}
               />
 
               {/* password */}
@@ -77,12 +91,19 @@ const LogIn = () => {
                 <button
                   onClick={handleShowPass}
                   className="btn btn-xs absolute top-2 right-6"
+                  type="button"
                 >
                   {showPass ? <FaEyeSlash /> : <FaEye />}
                 </button>
               </div>
               <div>
-                <a className="link link-hover">Forgot password?</a>
+                <button
+                  onClick={handleForgetPass}
+                  to={"/forgetPass"}
+                  className="link link-hover"
+                >
+                  Forgot password?
+                </button>
               </div>
               <button className="btn btn-secondary mt-4">Log in</button>
 

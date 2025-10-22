@@ -6,6 +6,7 @@ import LogIn from "../Pages/LogIn";
 import SkillsDetails from "../Pages/SkillsDetails";
 import Myprofile from "../Pages/Myprofile";
 import UpdateProfile from "../Pages/UpdateProfile";
+import ForgetPass from "../Pages/ForgetPass";
 
 export const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ export const router = createBrowserRouter([
       {
         path: "/updateProfile",
         Component: UpdateProfile,
+      },
+      {
+        path: "/forgetPass",
+        Component: ForgetPass,
       },
     ],
   },
