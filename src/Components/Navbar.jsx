@@ -51,7 +51,7 @@ const Navbar = () => {
                   <NavLink>All Skills</NavLink>
                 </li>
                 <li>
-                  <NavLink>MyProfile</NavLink>
+                  <NavLink to={"/myProfile"}>MyProfile</NavLink>
                 </li>
               </ul>
             </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <NavLink>All Skills</NavLink>
               </li>
               <li>
-                <NavLink>MyProfile</NavLink>
+                <NavLink to={"/myProfile"}>MyProfile</NavLink>
               </li>
             </ul>
           </div>

@@ -4,6 +4,8 @@ import Layouts from "../Layouts/Layouts";
 import Register from "../Pages/Register";
 import LogIn from "../Pages/LogIn";
 import SkillsDetails from "../Pages/SkillsDetails";
+import Myprofile from "../Pages/Myprofile";
+import UpdateProfile from "../Pages/UpdateProfile";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +32,16 @@ export const router = createBrowserRouter([
         path: "/skills/:skillId",
         Component: SkillsDetails,
         loader: () => fetch("/skills.json"),
+      },
+
+      {
+        path: "/myProfile",
+        Component: Myprofile,
+      },
+
+      {
+        path: "/updateProfile",
+        Component: UpdateProfile,
       },
     ],
   },

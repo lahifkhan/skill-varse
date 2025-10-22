@@ -5,6 +5,7 @@ import PopularSkill from "../Components/PopularSkill";
 import TopProvider from "../Components/TopProvider";
 import HowItWork from "../Components/HowItWork";
 import { Authcontext } from "../Context/AuthContext";
+import "animate.css";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -13,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <div className="text-center my-11 space-y-2">
-        <h1 className="font-bold  text-5xl">
+        <h1 className="animate__animated animate__bounce font-bold  text-5xl">
           <span className="text-secondary">Skill</span> Varse -{" "}
           <span className="text-primary">
             Empower Your <br />
