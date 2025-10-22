@@ -57,7 +57,6 @@ const Register = () => {
       .then((res) => {
         toast.success("Accounts created Successfully");
         setUser(res.user);
-
         console.log(res.user);
         navigate("/");
       })

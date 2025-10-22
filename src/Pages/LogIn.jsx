@@ -1,13 +1,47 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
+import { Authcontext } from "../Context/AuthContext";
+import toast from "react-hot-toast";
 
 const LogIn = () => {
   const [showPass, setShowPass] = useState(false);
+  const { signIn, setUser, creatUserWithGoogle, setLoading } =
+    useContext(Authcontext);
+  const navigate = useNavigate();
 
   const handleLogIn = (e) => {
     e.preventDefault();
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+
+    signIn(email, password)
+      .then((res) => {
+        console.log(res.user);
+        setUser(res.user);
+        toast.success("Log in Successfully");
+        navigate("/");
+      })
+      .catch((err) => {
+        toast.error(err.code);
+        setLoading(false);
+      });
+  };
+
+  const handleGoogleSign = () => {
+    creatUserWithGoogle()
+      .then((res) => {
+        toast.success("Accounts created Successfully");
+        setUser(res.user);
+        console.log(res.user);
+        navigate("/");
+      })
+      .catch((err) => {
+        console.log(err.code);
+        toast.error(err.code);
+        setLoading(false);
+      });
   };
 
   const handleShowPass = (e) => {
@@ -47,12 +81,18 @@ const LogIn = () => {
                   {showPass ? <FaEyeSlash /> : <FaEye />}
                 </button>
               </div>
-
+              <div>
+                <a className="link link-hover">Forgot password?</a>
+              </div>
               <button className="btn btn-secondary mt-4">Log in</button>
 
               <div className="flex flex-col text-center space-y-2">
                 <p className=" font-semibold text-accent">Or</p>
-                <button className="btn flex items-center gap-1 bg-black text-white">
+                <button
+                  type="button"
+                  onClick={handleGoogleSign}
+                  className="btn flex items-center gap-1 bg-black text-white "
+                >
                   {" "}
                   <FcGoogle size={24} />
                   Continue With Google

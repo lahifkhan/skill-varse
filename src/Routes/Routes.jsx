@@ -3,6 +3,7 @@ import Home from "../Pages/Home";
 import Layouts from "../Layouts/Layouts";
 import Register from "../Pages/Register";
 import LogIn from "../Pages/LogIn";
+import SkillsDetails from "../Pages/SkillsDetails";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,12 @@ export const router = createBrowserRouter([
       {
         path: "/logIn",
         Component: LogIn,
+      },
+
+      {
+        path: "/skills/:skillId",
+        Component: SkillsDetails,
+        loader: () => fetch("/skills.json"),
       },
     ],
   },

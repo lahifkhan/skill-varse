@@ -4,6 +4,7 @@ import { BiSolidCategory } from "react-icons/bi";
 import { FaStar } from "react-icons/fa";
 import { PiSeatbeltFill } from "react-icons/pi";
 import { RxAvatar } from "react-icons/rx";
+import { Link } from "react-router";
 
 const SkillsCard = ({ skills }) => {
   return (
@@ -39,7 +40,12 @@ const SkillsCard = ({ skills }) => {
           </div>
           <div className="flex justify-between items-center">
             <p className="font-bold text-xl text-primary">${skills.price}</p>
-            <button className="btn btn-secondary w-fit">View Details</button>
+            <Link
+              to={`/skills/${skills.skillId}`}
+              className="btn btn-secondary w-fit"
+            >
+              View Details
+            </Link>
           </div>
         </div>
       </div>
