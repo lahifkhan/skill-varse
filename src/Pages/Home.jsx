@@ -3,6 +3,8 @@ import Hero from "../Components/Hero";
 import Mycontainer from "../Components/Mycontainer";
 import { useLoaderData } from "react-router";
 import PopularSkill from "../Components/PopularSkill";
+import TopProvider from "../Components/TopProvider";
+import HowItWork from "../Components/HowItWork";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -22,14 +24,23 @@ const Home = () => {
         </p>
       </div>
       <Mycontainer>
+        {/* slider */}
         <Hero></Hero>
 
-        <section className="popularSkill my-[150px]">
+        {/* popular skills */}
+        <section className="popularSkill my-[120px]">
           <h1 className="text-3xl font-bold text-primary text-center my-10">
             Popular Skills
           </h1>
           <PopularSkill skillsData={skillsData}></PopularSkill>
         </section>
+      </Mycontainer>
+      {/* Top rated Provider  */}
+      <TopProvider skillsData={skillsData}></TopProvider>
+
+      {/* how it work */}
+      <Mycontainer>
+        <HowItWork></HowItWork>
       </Mycontainer>
     </div>
   );
