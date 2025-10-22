@@ -1,15 +1,16 @@
 import React, { useContext, useRef, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { Authcontext } from "../Context/AuthContext";
 import toast from "react-hot-toast";
-import { Navigate } from "react-router";
 
 const LogIn = () => {
   const [showPass, setShowPass] = useState(false);
   const { signIn, setUser, creatUserWithGoogle, setLoading } =
     useContext(Authcontext);
+
+  const location = useLocation();
   const navigate = useNavigate();
   const emailRef = useRef();
 
@@ -32,7 +33,9 @@ const LogIn = () => {
         console.log(res.user);
         setUser(res.user);
         toast.success("Log in Successfully");
-        navigate("/");
+        {
+          location.state ? navigate(location.state) : navigate("/");
+        }
       })
       .catch((err) => {
         toast.error(err.code);
@@ -47,7 +50,9 @@ const LogIn = () => {
         toast.success("Accounts created Successfully");
         setUser(res.user);
         console.log(res.user);
-        navigate("/");
+        {
+          location.state ? navigate(location.state) : navigate("/");
+        }
       })
       .catch((err) => {
         console.log(err.code);
