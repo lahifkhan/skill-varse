@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import logoImg from "../assets/logo.png";
 import { Link, NavLink } from "react-router";
 import Mycontainer from "./Mycontainer";
+import { Authcontext } from "../Context/AuthContext";
+import toast from "react-hot-toast";
 
 const Navbar = () => {
+  const { user, logOutUser, loading } = useContext(Authcontext);
+
+  const handleLogOut = () => {
+    logOutUser()
+      .then(() => toast.success("Accounts Log out"))
+      .catch((err) => toast.error(err));
+  };
   return (
     <div className="bg-base-100 shadow-sm">
       <Mycontainer>
@@ -70,7 +79,38 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-secondary font-bold">LogIn</a>
+            {loading ? (
+              <span className="loading loading-spinner loading-md"></span>
+            ) : user ? (
+              <div className="flex gap-3 items-center">
+                <div
+                  className="tooltip tooltip-bottom"
+                  data-tip={user.displayName}
+                >
+                  <img
+                    className="w-10 h-10 rounded-full border p-0.5 border-primary cursor-pointer"
+                    src={user.photoURL}
+                  />
+                </div>
+
+                <button
+                  onClick={handleLogOut}
+                  className="btn btn-secondary font-bold"
+                >
+                  Log Out
+                </button>
+              </div>
+            ) : (
+              <div className="flex gap-2">
+                <Link to={"/logIn"} className="btn btn-secondary font-bold">
+                  LogIn
+                </Link>
+
+                <Link to={"/register"} className="btn btn-secondary font-bold">
+                  Sign Up
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       </Mycontainer>

@@ -1,13 +1,14 @@
-import React from "react";
 import Hero from "../Components/Hero";
 import Mycontainer from "../Components/Mycontainer";
 import { useLoaderData } from "react-router";
 import PopularSkill from "../Components/PopularSkill";
 import TopProvider from "../Components/TopProvider";
 import HowItWork from "../Components/HowItWork";
+import { Authcontext } from "../Context/AuthContext";
 
 const Home = () => {
   const skillsData = useLoaderData();
+
   console.log(skillsData);
   return (
     <div>
