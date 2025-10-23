@@ -47,9 +47,7 @@ const Navbar = () => {
                 <li>
                   <NavLink to={"/"}>Home</NavLink>
                 </li>
-                <li>
-                  <NavLink>All Skills</NavLink>
-                </li>
+
                 <li>
                   <NavLink to={"/myProfile"}>MyProfile</NavLink>
                 </li>
@@ -69,9 +67,6 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1 font-semibold">
               <li>
                 <NavLink to={"/"}>Home</NavLink>
-              </li>
-              <li>
-                <NavLink>All Skills</NavLink>
               </li>
               <li>
                 <NavLink to={"/myProfile"}>MyProfile</NavLink>

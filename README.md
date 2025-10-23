@@ -1,16 +1,52 @@
-# React + Vite
+# **SkillVerse — Empower Your Learning Journey**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🔗 **Live URL**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [https://stately-sunflower-9cc2d3.netlify.app/](https://stately-sunflower-9cc2d3.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## **Project Purpose**
 
-## Expanding the ESLint configuration
+**SkillVerse** is a modern learning platform built with **React** and **Firebase**.
+It allows users to explore new skills, register and log in securely, and manage their profiles.
+The platform focuses on providing a smooth and interactive learning experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## **Key Features**
+
+**Firebase Authentication** — Email/password, Google login, and password reset
+**Profile Management** — Update display name, photo, and view personal info
+**Achievements Section** — Showcases user milestones visually
+**Vite + React** — Fast performance and optimized development setup
+**Tailwind CSS + DaisyUI** — Clean, modern, and responsive design
+**React Hot Toast** — Toast notifications for real-time feedback
+**Animate.css** — Smooth entrance and bounce animations for UI elements
+**React Spring (optional)** — Adds fluid animations and transitions
+
+---
+
+## **NPM Packages Used**
+
+- **react** - Core React library
+- **react-router** - Client-side routing
+- **firebase** - Backend authentication and data handling
+- **react-hot-toast** → User notifications
+- **tailwindcss** - Utility-first CSS framework
+- **daisyui** - Prebuilt UI components built on Tailwind
+- **animate.css** - CSS-based animations
+- **react-icons** - Easy-to-use icon components
+- **react-spring** - Smooth animations and transitions
+- **swiper** → Carousel and slider functionality
+
+---
+
+## **Developer Info**
+
+- **Name:** Nuhath Khan Lahif
+- **Email:** [lahifkhan52@gmail.com](mailto:lahifkhan52@gmail.com)
+
+---
