@@ -47,7 +47,7 @@ const LogIn = () => {
   const handleGoogleSign = () => {
     creatUserWithGoogle()
       .then((res) => {
-        toast.success("Accounts created Successfully");
+        toast.success("Accounts Loged In Successfully");
         setUser(res.user);
         console.log(res.user);
         {
@@ -130,7 +130,7 @@ const LogIn = () => {
           <p>
             Don't have an account?{" "}
             <Link className="text-blue-500" to={"/register"}>
-              Register
+              Sign Up
             </Link>
           </p>
         </div>

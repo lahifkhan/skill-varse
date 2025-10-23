@@ -75,7 +75,7 @@ const Register = () => {
       <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
         <div className="card-body">
           <h1 className="text-center font-bold text-xl text-primary">
-            Register Now
+            Sign Up Now
           </h1>
           <form onSubmit={handleFormSubmit}>
             <fieldset className="fieldset">
@@ -124,13 +124,6 @@ const Register = () => {
                 >
                   {showPass ? <FaEyeSlash /> : <FaEye />}
                 </button>
-              </div>
-              {/* terms and conditon */}
-              <div>
-                <label className="label">
-                  <input type="checkbox" className="checkbox" name="terms" />
-                  Terms and Condition
-                </label>
               </div>
 
               <button className="btn btn-secondary mt-4">Register</button>

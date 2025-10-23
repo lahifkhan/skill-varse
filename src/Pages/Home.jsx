@@ -6,6 +6,7 @@ import TopProvider from "../Components/TopProvider";
 import HowItWork from "../Components/HowItWork";
 import { Authcontext } from "../Context/AuthContext";
 import "animate.css";
+import Achievement from "../Components/Achievement";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -39,6 +40,10 @@ const Home = () => {
       </Mycontainer>
       {/* Top rated Provider  */}
       <TopProvider skillsData={skillsData}></TopProvider>
+
+      {/* Achievement  */}
+
+      <Achievement></Achievement>
 
       {/* how it work */}
       <Mycontainer>

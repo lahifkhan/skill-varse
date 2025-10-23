@@ -18,11 +18,8 @@ const SkillsDetails = () => {
   return (
     <Mycontainer>
       <div className="card lg:card-side bg-base-100 shadow-sm my-8">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-            alt="Album"
-          />
+        <figure className=" w-[300px] object-cover">
+          <img src={singleData.image} alt="Album" />
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold text-2xl">

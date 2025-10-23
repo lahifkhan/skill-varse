@@ -1,5 +1,5 @@
 import React from "react";
-import connectImg from "../assets/stayConnect.jpg";
+
 import { BiSolidCategory } from "react-icons/bi";
 import { FaStar } from "react-icons/fa";
 import { PiSeatbeltFill } from "react-icons/pi";
@@ -10,8 +10,8 @@ const SkillsCard = ({ skills }) => {
   return (
     <div>
       <div className="card bg-base-100 h-full shadow-sm flex flex-col hover:scale-105 transition ease-in-out">
-        <figure>
-          <img src={connectImg} alt="Shoes" />
+        <figure className="h-60 object-contain">
+          <img src={skills.image} alt="Shoes" />
         </figure>
         <div className="card-body flex flex-col justify-between flex-1">
           <h2 className="card-title text-primary font-bold">
