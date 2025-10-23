@@ -57,7 +57,7 @@ const Navbar = () => {
               <img className="w-[30px] h-[30px]" src={logoImg} alt="" />
               <Link
                 to={"/"}
-                className="btn btn-ghost text-xl  py-0 px-2 font-bold"
+                className="btn hidden  md:block btn-ghost text-xl  py-0 px-2 font-bold"
               >
                 <span className="text-secondary">Skill</span>Verse
               </Link>

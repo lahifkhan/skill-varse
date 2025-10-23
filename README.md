@@ -25,7 +25,6 @@ The platform focuses on providing a smooth and interactive learning experience.
 **Tailwind CSS + DaisyUI** — Clean, modern, and responsive design
 **React Hot Toast** — Toast notifications for real-time feedback
 **Animate.css** — Smooth entrance and bounce animations for UI elements
-**React Spring (optional)** — Adds fluid animations and transitions
 
 ---
 
@@ -39,8 +38,8 @@ The platform focuses on providing a smooth and interactive learning experience.
 - **daisyui** - Prebuilt UI components built on Tailwind
 - **animate.css** - CSS-based animations
 - **react-icons** - Easy-to-use icon components
-- **react-spring** - Smooth animations and transitions
-- **swiper** → Carousel and slider functionality
+- **swiper** - Carousel and slider functionality
+- **React Fast Marquee** - Create silky smooth marquees.
 
 ---
 

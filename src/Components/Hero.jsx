@@ -28,7 +28,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full h-[50vh] md:h-[60vh]">
+    <div className="w-full h-[40vh] md:h-[50vh]">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
@@ -38,16 +38,11 @@ const Hero = () => {
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div
-              className="w-full h-full bg-[#EDFBF8] bg-cover bg-center flex gap-4 items-center justify-center  text-2xl md:text-6xl font-bold p-8"
-              // style={{ backgroundImage: `url(${slide.image})` }}
-            >
-              <div className="flex-1">
+            <div className="w-full h-full  flex gap-4 items-center justify-center  text-2xl md:text-5xl font-bold">
+              <div className="flex-1 ">
                 <img className="rounded-2xl" src={slide.image} alt="" />
               </div>
-              <div className=" text-primary bg-opacity-40 p-4 rounded flex-1">
-                {slide.text}
-              </div>
+              <div className=" text-primary  p-4  flex-1">{slide.text}</div>
             </div>
           </SwiperSlide>
         ))}

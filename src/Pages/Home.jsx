@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
       <div className="text-center my-11 space-y-2">
-        <h1 className="animate__animated animate__bounce font-bold  text-5xl">
+        <h1 className="animate__animated animate__bounce font-bold text-2xl  md:text-4xl">
           <span className="text-secondary">Skill</span> Varse -{" "}
           <span className="text-primary">
             Empower Your <br />
