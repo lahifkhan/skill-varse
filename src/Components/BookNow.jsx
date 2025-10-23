@@ -35,7 +35,7 @@ const BookNow = () => {
                 required
               />
 
-              <button className="btn btn-secondary mt-4 text-xl">Book</button>
+              <button className="btn btn-secondary mt-4 text-xl">Submit</button>
             </fieldset>
           </form>
         </div>
