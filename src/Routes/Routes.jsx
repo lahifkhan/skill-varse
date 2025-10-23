@@ -8,11 +8,13 @@ import Myprofile from "../Pages/Myprofile";
 import UpdateProfile from "../Pages/UpdateProfile";
 import ForgetPass from "../Pages/ForgetPass";
 import PrivateRoutes from "./PrivateRoutes";
+import Loading from "../Pages/Loading";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Layouts,
+    hydrateFallbackElement: <Loading></Loading>,
     children: [
       {
         index: true,
@@ -54,5 +56,10 @@ export const router = createBrowserRouter([
         Component: ForgetPass,
       },
     ],
+  },
+
+  {
+    path: "/*",
+    element: <p>404 page not found</p>,
   },
 ]);
