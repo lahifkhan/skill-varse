@@ -7,6 +7,8 @@ import PriceImg from "../assets/price.png";
 import categoryImg from "../assets/category.png";
 import Mycontainer from "../Components/Mycontainer";
 import BookNow from "../Components/BookNow";
+import PageNotFound from "../Components/PageNotFound";
+import AppNotFound from "../Components/AppNotFound";
 const SkillsDetails = () => {
   const skillsData = useLoaderData();
   const { skillId } = useParams();
@@ -15,6 +17,10 @@ const SkillsDetails = () => {
 
   const singleData = skillsData.find((skill) => skill.skillId == skillId);
   console.log(singleData);
+
+  if (singleData === undefined) {
+    return <AppNotFound></AppNotFound>;
+  }
   return (
     <Mycontainer>
       <div className="card lg:card-side bg-base-100 shadow-sm my-8">

@@ -9,6 +9,7 @@ import UpdateProfile from "../Pages/UpdateProfile";
 import ForgetPass from "../Pages/ForgetPass";
 import PrivateRoutes from "./PrivateRoutes";
 import Loading from "../Pages/Loading";
+import PageNotFound from "../Components/PageNotFound";
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +61,6 @@ export const router = createBrowserRouter([
 
   {
     path: "/*",
-    element: <p>404 page not found</p>,
+    Component: PageNotFound,
   },
 ]);
