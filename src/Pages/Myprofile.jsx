@@ -2,9 +2,12 @@ import React, { useContext } from "react";
 import { Authcontext } from "../Context/AuthContext";
 import "animate.css";
 import { Link } from "react-router";
+import Loading from "./Loading";
 const Myprofile = () => {
-  const { user } = useContext(Authcontext);
-  console.log(user);
+  const { user, loading } = useContext(Authcontext);
+  if (loading) {
+    return <Loading></Loading>;
+  }
 
   return (
     <div className="flex justify-center mt-3">
