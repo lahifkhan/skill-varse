@@ -6,7 +6,9 @@ import { RouterProvider } from "react-router";
 import { router } from "./Routes/Routes.jsx";
 import AuthProvider from "./Provider/AuthProvider.jsx";
 import { Toaster } from "react-hot-toast";
+import Aos from "aos";
 
+Aos.init();
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthProvider>

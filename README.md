@@ -33,13 +33,14 @@ The platform focuses on providing a smooth and interactive learning experience.
 - **react** - Core React library
 - **react-router** - Client-side routing
 - **firebase** - Backend authentication and data handling
-- **react-hot-toast** → User notifications
+- **react-hot-toast** - User notifications
 - **tailwindcss** - Utility-first CSS framework
 - **daisyui** - Prebuilt UI components built on Tailwind
 - **animate.css** - CSS-based animations
 - **react-icons** - Easy-to-use icon components
 - **swiper** - Carousel and slider functionality
 - **React Fast Marquee** - Create silky smooth marquees.
+- **Aos** - to animate elements as you scroll down.
 
 ---
 

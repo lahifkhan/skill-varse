@@ -61,6 +61,8 @@ const Footer = () => {
               </svg>
             </a>
           </div>
+          <p>Email: lahif@gmail.com</p>
+          <p>Phone: 011258455</p>
         </nav>
       </footer>
     </div>

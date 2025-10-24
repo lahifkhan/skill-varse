@@ -6,18 +6,27 @@ import {
   FaStar,
 } from "react-icons/fa";
 import Mycontainer from "./Mycontainer";
+import "aos/dist/aos.css";
 const Achievement = () => {
   return (
     <Mycontainer>
       <div className="py-16">
         <div className="text-center">
-          <h2 className="text-4xl font-bold text-primary mb-10">
+          <h2
+            data-aos="zoom-in-up"
+            data-aos-duration="800"
+            className="text-4xl font-bold text-primary mb-10"
+          >
             Our Achievements
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* achive */}
-            <div className="bg-base-100 rounded-2xl space-y-2 shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              className="bg-base-100 rounded-2xl space-y-2 shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out"
+            >
               <FaUsers size={48} className="text-primary mb-4" />
               <h3 className="text-3xl font-bold text-secondary">10K+</h3>
               <p className="text-lg font-semibold">Active Learners</p>
@@ -27,7 +36,11 @@ const Achievement = () => {
             </div>
 
             {/* instructor */}
-            <div className="bg-base-100 sapce-y-2 rounded-2xl shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              className="bg-base-100 sapce-y-2 rounded-2xl shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out"
+            >
               <FaChalkboardTeacher size={48} className=" text-secondary mb-4" />
               <h3 className="text-3xl font-bold text-secondary">500+</h3>
               <p className="text-lg font-semibold ">Expert Instructors</p>
@@ -37,7 +50,11 @@ const Achievement = () => {
             </div>
 
             {/* courses */}
-            <div className="bg-base-100 space-y-2 rounded-2xl shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="300"
+              className="bg-base-100 space-y-2 rounded-2xl shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out"
+            >
               <FaBookOpen size={48} className=" text-primary mb-4" />
               <h3 className="text-3xl font-bold text-secondary">1K+</h3>
               <p className="text-lg font-semibold ">Courses Available</p>
@@ -47,7 +64,11 @@ const Achievement = () => {
             </div>
 
             {/* ratings */}
-            <div className="bg-base-100 space-y-2 rounded-2xl shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="400"
+              className="bg-base-100 space-y-2 rounded-2xl shadow-xl p-6 flex flex-col items-center justify-center hover:scale-105 transition ease-in-out"
+            >
               <FaStar size={48} className=" text-yellow-400 mb-4" />
               <h3 className="text-3xl font-bold text-secondary">4.9/5</h3>
               <p className="text-lg font-semibold">User Rating</p>
