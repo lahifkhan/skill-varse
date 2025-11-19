@@ -8,13 +8,6 @@
 
 ---
 
-## 📸 Project Screenshot
-
-![SkillVerse Screenshot](https://user-images.githubusercontent.com/yourusername/skillverse-screenshot.png)
-_Replace the URL above with your actual screenshot path._
-
----
-
 ## 📝 Project Overview
 
 **SkillVerse** is a modern learning platform designed to help users explore new skills and manage their learning journey efficiently.  
