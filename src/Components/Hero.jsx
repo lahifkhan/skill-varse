@@ -40,7 +40,7 @@ const Hero = () => {
           <SwiperSlide key={slide.id}>
             <div className="w-full h-full  flex gap-4 items-center justify-center  text-2xl md:text-5xl font-bold">
               <div className="flex-1 ">
-                <img className="rounded-2xl" src={slide.image} alt="" />
+                <img className="rounded-2xl h-full" src={slide.image} alt="" />
               </div>
               <div className=" text-primary  p-4  flex-1">{slide.text}</div>
             </div>
