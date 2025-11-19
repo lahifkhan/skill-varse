@@ -2,51 +2,103 @@
 
 ---
 
-## 🔗 **Live URL**
+## 🔗 Live URL
 
-👉 [https://stately-sunflower-9cc2d3.netlify.app/](https://stately-sunflower-9cc2d3.netlify.app/)
-
----
-
-## **Project Purpose**
-
-**SkillVerse** is a modern learning platform built with **React** and **Firebase**.
-It allows users to explore new skills, register and log in securely, and manage their profiles.
-The platform focuses on providing a smooth and interactive learning experience.
+[https://stately-sunflower-9cc2d3.netlify.app/](https://stately-sunflower-9cc2d3.netlify.app/)
 
 ---
 
-## **Key Features**
+## 📸 Project Screenshot
 
-**Firebase Authentication** — Email/password, Google login, and password reset
-**Profile Management** — Update display name, photo, and view personal info
-**Achievements Section** — Showcases user milestones visually
-**Vite + React** — Fast performance and optimized development setup
-**Tailwind CSS + DaisyUI** — Clean, modern, and responsive design
-**React Hot Toast** — Toast notifications for real-time feedback
-**Animate.css** — Smooth entrance and bounce animations for UI elements
+![SkillVerse Screenshot](https://user-images.githubusercontent.com/yourusername/skillverse-screenshot.png)
+_Replace the URL above with your actual screenshot path._
 
 ---
 
-## **NPM Packages Used**
+## 📝 Project Overview
 
-- **react** - Core React library
-- **react-router** - Client-side routing
-- **firebase** - Backend authentication and data handling
-- **react-hot-toast** - User notifications
-- **tailwindcss** - Utility-first CSS framework
-- **daisyui** - Prebuilt UI components built on Tailwind
-- **animate.css** - CSS-based animations
-- **react-icons** - Easy-to-use icon components
-- **swiper** - Carousel and slider functionality
-- **React Fast Marquee** - Create silky smooth marquees.
-- **Aos** - to animate elements as you scroll down.
+**SkillVerse** is a modern learning platform designed to help users explore new skills and manage their learning journey efficiently.  
+It provides a smooth, interactive, and responsive interface, allowing users to:
+
+- Register and log in securely using email/password or Google authentication
+- Manage personal profiles and view achievements
+- Explore courses and track learning progress
 
 ---
 
-## **Developer Info**
+## ⚡ Main Technologies Used
 
-- **Name:** Nuhath Khan Lahif
-- **Email:** [lahifkhan52@gmail.com](mailto:lahifkhan52@gmail.com)
+- **React** — Frontend library for building UI
+- **Firebase** — Authentication and backend services
+- **Vite** — Fast and optimized development environment
+- **Tailwind CSS** — Utility-first CSS framework
+- **DaisyUI** — Prebuilt UI components for React
+- **Animate.css** — Smooth UI animations
 
 ---
+
+## ✨ Key Features
+
+- **Secure Authentication** — Email/password login, Google login, and password reset
+- **Profile Management** — Update display name, photo, and personal info
+- **Achievements Section** — Visual representation of user milestones
+- **Responsive Design** — Works perfectly on desktop and mobile
+- **Real-Time Feedback** — Toast notifications using React Hot Toast
+- **Smooth Animations** — Animations powered by Animate.css and AOS
+- **Interactive UI Components** — Carousel, sliders, and marquees
+
+---
+
+## 📦 Dependencies
+
+- `react`
+- `react-router-dom`
+- `firebase`
+- `react-hot-toast`
+- `tailwindcss`
+- `daisyui`
+- `animate.css`
+- `react-icons`
+- `swiper`
+- `react-fast-marquee`
+- `aos`
+
+---
+
+## 🖥️ Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/skill-verse.git
+Navigate to the project folder
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd skill-verse
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the app in your browser
+
+The app will be available at http://localhost:5173
+
+👨‍💻 Developer Info
+Name: Nuhath Khan Lahif
+
+Email: lahifkhan52@gmail.com
+
+GitHub: https://github.com/lahifkhan
