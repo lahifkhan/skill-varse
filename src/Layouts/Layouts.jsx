@@ -11,7 +11,7 @@ const Layouts = () => {
       <header>
         <Navbar></Navbar>
       </header>
-      <main className="min-h-screen">
+      <main>
         {state == "loading" ? <loading></loading> : <Outlet></Outlet>}
       </main>
 

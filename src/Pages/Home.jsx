@@ -7,6 +7,9 @@ import HowItWork from "../Components/HowItWork";
 import { Authcontext } from "../Context/AuthContext";
 import "animate.css";
 import Achievement from "../Components/Achievement";
+import AboutUs from "../Components/AboutUs";
+import FavouriteTopic from "../Components/Home/FavouriteTopic";
+import Stat from "../Components/Home/Stat";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -14,7 +17,7 @@ const Home = () => {
   console.log(skillsData);
   return (
     <div>
-      <div className="text-center my-11 space-y-2">
+      {/* <div className="text-center my-11 space-y-2">
         <h1 className="animate__animated animate__bounce font-bold text-2xl  md:text-4xl">
           <span className="text-secondary">Skill</span> Varse -{" "}
           <span className="text-primary">
@@ -25,11 +28,18 @@ const Home = () => {
         <p className="text-accent font-bold text-xl">
           Share what you know. Learn what you love.
         </p>
-      </div>
+      </div> */}
       <Mycontainer>
         {/* slider */}
         <Hero></Hero>
+        <FavouriteTopic></FavouriteTopic>
 
+        <AboutUs></AboutUs>
+      </Mycontainer>
+
+      <Stat></Stat>
+
+      <Mycontainer>
         {/* popular skills */}
         <section className="popularSkill my-[120px]">
           <h1 className="text-3xl font-bold text-primary text-center my-10">
@@ -38,6 +48,7 @@ const Home = () => {
           <PopularSkill skillsData={skillsData}></PopularSkill>
         </section>
       </Mycontainer>
+
       {/* Top rated Provider  */}
       <TopProvider skillsData={skillsData}></TopProvider>
 
