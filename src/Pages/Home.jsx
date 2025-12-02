@@ -11,6 +11,7 @@ import AboutUs from "../Components/AboutUs";
 import FavouriteTopic from "../Components/Home/FavouriteTopic";
 import Stat from "../Components/Home/Stat";
 import MeatOurTeam from "../Components/Home/MeatOurTeam";
+import Banner2 from "../Components/Home/banner2";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -30,9 +31,10 @@ const Home = () => {
           Share what you know. Learn what you love.
         </p>
       </div> */}
+      <Banner2></Banner2>
       <Mycontainer>
         {/* slider */}
-        <Hero></Hero>
+
         <FavouriteTopic></FavouriteTopic>
 
         <AboutUs></AboutUs>
