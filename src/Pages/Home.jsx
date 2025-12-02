@@ -10,6 +10,7 @@ import Achievement from "../Components/Achievement";
 import AboutUs from "../Components/AboutUs";
 import FavouriteTopic from "../Components/Home/FavouriteTopic";
 import Stat from "../Components/Home/Stat";
+import MeatOurTeam from "../Components/Home/MeatOurTeam";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -41,9 +42,11 @@ const Home = () => {
 
       <Mycontainer>
         {/* popular skills */}
-        <section className="popularSkill my-[120px]">
+        <section className="popularSkill">
           <PopularSkill skillsData={skillsData}></PopularSkill>
         </section>
+
+        <MeatOurTeam></MeatOurTeam>
       </Mycontainer>
 
       {/* Top rated Provider  */}

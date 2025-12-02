@@ -4,7 +4,7 @@ import { MdOutlineScreenShare } from "react-icons/md";
 
 const AboutUs = () => {
   return (
-    <div className="pt-16 px-2 md:px-16 ">
+    <div className=" px-2 md:px-16 mt-20 pb-8 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-18 items-center">
         <div className="relative w-full flex justify-center">
           <div className="rounded-xl overflow-hidden shadow-md w-[540px] h-[460px]">
