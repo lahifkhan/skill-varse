@@ -5,9 +5,9 @@ import { MdOutlineScreenShare } from "react-icons/md";
 const AboutUs = () => {
   return (
     <div className="pt-16 px-2 md:px-16 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-18 items-center">
         <div className="relative w-full flex justify-center">
-          <div className="rounded-xl overflow-hidden shadow-md w-[440px] h-[360px]">
+          <div className="rounded-xl overflow-hidden shadow-md w-[540px] h-[460px]">
             <img
               src="https://i.postimg.cc/66MqwtjK/about2.png"
               alt="Professional Mechanic"
@@ -15,7 +15,7 @@ const AboutUs = () => {
             />
           </div>
 
-          <div className="absolute bottom-[-35px] right-[-10] md:right-[-5px]  rounded-xl overflow-hidden shadow-xl w-[220px] h-[160px] bg-white">
+          <div className="absolute bottom-[-35px] right-[-10] md:right-[-5px]  rounded-xl overflow-hidden shadow-xl w-[320px] h-[260px] bg-white">
             <img
               src="https://i.postimg.cc/9MF2Nqjj/about1.png"
               alt="about"

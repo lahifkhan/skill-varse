@@ -42,9 +42,6 @@ const Home = () => {
       <Mycontainer>
         {/* popular skills */}
         <section className="popularSkill my-[120px]">
-          <h1 className="text-3xl font-bold text-primary text-center my-10">
-            Popular Skills
-          </h1>
           <PopularSkill skillsData={skillsData}></PopularSkill>
         </section>
       </Mycontainer>

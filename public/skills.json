@@ -8,9 +8,51 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Acoustic guitar classes for complete beginners.",
-    "image": "https://i.ibb.co.com/YF5SrqwL/pexels-pavel-danilyuk-7520961.jpg",
-    "category": "Music"
+    "image": "https://i.postimg.cc/kgbcf44c/course2.png",
+    "category": "Music",
+
+    "originalPrice": 100,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1.5 hours",
+    "lessonTime": "10:00 AM - 12:00 PM",
+    "classTime": "4:00 PM - 6:00 PM",
+    "startTime": "Monday - Friday",
+    "totalStudents": "20+",
+
+    "enrolled": 80,
+    "totalLectures": 50,
+    "skillLevel": "Basic",
+    "language": "English",
+
+    "courseDescriptionFull": "Learn guitar from scratch with simple and fun techniques...",
+    "whatWillILearn": [
+      "Basic guitar chords",
+      "Strumming techniques",
+      "Playing simple songs",
+      "Understanding rhythm"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Guitar Basics", "lessons": 4 },
+      { "module": 2, "title": "Chords & Rhythm", "lessons": 6 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Alex has 7 years of experience teaching guitar...",
+      "coursesTaught": 3,
+      "totalStudents": 300
+    },
+
+    "reviews": [
+      {
+        "user": "John D.",
+        "rating": 5,
+        "comment": "Very friendly and helpful instructor!"
+      }
+    ]
   },
+
   {
     "skillId": 2,
     "skillName": "Spoken English Practice",
@@ -20,9 +62,51 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Conversational English sessions for non-native speakers.",
-    "image": "https://i.ibb.co.com/tpGQ13J9/labor-day-celebration-with-portrait-laborer-work.jpg",
-    "category": "Language"
+    "image": "https://i.postimg.cc/c4KMLHfX/course1.png",
+    "category": "Language",
+
+    "originalPrice": 60,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1 hour",
+    "lessonTime": "11:00 AM - 1:00 PM",
+    "classTime": "6:00 PM - 7:00 PM",
+    "startTime": "Monday - Saturday",
+    "totalStudents": "40+",
+
+    "enrolled": 120,
+    "totalLectures": 40,
+    "skillLevel": "Beginner",
+    "language": "English",
+
+    "courseDescriptionFull": "Improve your spoken English through practical lessons...",
+    "whatWillILearn": [
+      "Improve fluency",
+      "Learn daily conversation phrases",
+      "Increase vocabulary",
+      "Develop confidence"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Basic Speaking", "lessons": 5 },
+      { "module": 2, "title": "Real Life Conversations", "lessons": 6 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Sara is an ESL trainer with 6 years of experience...",
+      "coursesTaught": 4,
+      "totalStudents": 600
+    },
+
+    "reviews": [
+      {
+        "user": "Tania M.",
+        "rating": 5,
+        "comment": "Very effective and easy to follow!"
+      }
+    ]
   },
+
   {
     "skillId": 3,
     "skillName": "Introduction to Web Development",
@@ -32,9 +116,51 @@
     "rating": 4.9,
     "slotsAvailable": 4,
     "description": "Learn the basics of HTML, CSS, and JavaScript to start your web development journey.",
-    "image": "https://i.ibb.co.com/gMbPb9tH/person-front-computer-working-html.jpg",
-    "category": "Technology"
+    "image": "https://i.postimg.cc/76s0x8h2/course3.png",
+    "category": "Technology",
+
+    "originalPrice": 150,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "2 hours",
+    "lessonTime": "8:00 AM - 12:00 PM",
+    "classTime": "5:00 PM - 7:00 PM",
+    "startTime": "Monday - Friday",
+    "totalStudents": "35+",
+
+    "enrolled": 140,
+    "totalLectures": 90,
+    "skillLevel": "Beginner",
+    "language": "English",
+
+    "courseDescriptionFull": "Start web development with hands-on lessons covering HTML, CSS, and JS...",
+    "whatWillILearn": [
+      "Build websites from scratch",
+      "Learn HTML, CSS, JS",
+      "Responsive design",
+      "Deploy websites"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "HTML Fundamentals", "lessons": 8 },
+      { "module": 2, "title": "CSS Basics", "lessons": 10 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Rafi is a full-stack web developer with 8 years of experience...",
+      "coursesTaught": 6,
+      "totalStudents": 900
+    },
+
+    "reviews": [
+      {
+        "user": "Imran H.",
+        "rating": 5,
+        "comment": "Perfect for complete beginners!"
+      }
+    ]
   },
+
   {
     "skillId": 4,
     "skillName": "Yoga for Beginners",
@@ -44,9 +170,51 @@
     "rating": 4.7,
     "slotsAvailable": 6,
     "description": "Start your day with calming yoga stretches and breathing techniques.",
-    "image": "https://i.ibb.co.com/C51NBqkX/brunette-girl-sitting-lotos-pose-meditating.jpg",
-    "category": "Fitness"
+    "image": "https://i.postimg.cc/Jz58D1Lv/course4.png",
+    "category": "Fitness",
+
+    "originalPrice": 80,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1 hour",
+    "lessonTime": "6:00 AM - 8:00 AM",
+    "classTime": "3:00 PM - 4:00 PM",
+    "startTime": "Everyday",
+    "totalStudents": "25+",
+
+    "enrolled": 200,
+    "totalLectures": 30,
+    "skillLevel": "Basic",
+    "language": "English",
+
+    "courseDescriptionFull": "This yoga course helps you improve flexibility and reduce stress...",
+    "whatWillILearn": [
+      "Basic yoga poses",
+      "Breathing techniques",
+      "Relaxation methods",
+      "Balance improvement"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Warm-up & Basics", "lessons": 4 },
+      { "module": 2, "title": "Beginner Yoga Poses", "lessons": 8 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Nadia has been teaching yoga for 5 years...",
+      "coursesTaught": 2,
+      "totalStudents": 400
+    },
+
+    "reviews": [
+      {
+        "user": "Sadia A.",
+        "rating": 5,
+        "comment": "Very relaxing and helpful!"
+      }
+    ]
   },
+
   {
     "skillId": 5,
     "skillName": "Digital Painting Basics",
@@ -57,8 +225,46 @@
     "slotsAvailable": 2,
     "description": "Master the fundamentals of digital painting using Procreate or Photoshop.",
     "image": "https://i.ibb.co.com/SXdp8X9r/6895588.jpg",
-    "category": "Art"
+    "category": "Art",
+
+    "originalPrice": 140,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "2 hours",
+    "lessonTime": "10:00 AM - 2:00 PM",
+    "classTime": "7:00 PM - 9:00 PM",
+    "startTime": "Tuesday - Saturday",
+    "totalStudents": "30+",
+
+    "enrolled": 110,
+    "totalLectures": 60,
+    "skillLevel": "Beginner",
+    "language": "English",
+
+    "courseDescriptionFull": "Learn digital painting from scratch with industry techniques...",
+    "whatWillILearn": [
+      "Digital brushes",
+      "Color theory",
+      "Shading techniques",
+      "Drawing characters"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Tool Basics", "lessons": 7 },
+      { "module": 2, "title": "Color & Composition", "lessons": 10 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Tanvir is a digital artist with 10 years of experience...",
+      "coursesTaught": 8,
+      "totalStudents": 1000
+    },
+
+    "reviews": [
+      { "user": "Rumi P.", "rating": 5, "comment": "Amazing teaching style!" }
+    ]
   },
+
   {
     "skillId": 6,
     "skillName": "Cooking Traditional Bangladeshi Dishes",
@@ -69,8 +275,46 @@
     "slotsAvailable": 5,
     "description": "Learn to cook authentic Bangladeshi meals with simple step-by-step guidance.",
     "image": "https://i.ibb.co.com/p6NGZ2Gx/bangladeshi-Food.jpg",
-    "category": "Cooking"
+    "category": "Cooking",
+
+    "originalPrice": 80,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1.5 hours",
+    "lessonTime": "9:00 AM - 12:00 PM",
+    "classTime": "4:00 PM - 6:00 PM",
+    "startTime": "Friday - Monday",
+    "totalStudents": "15+",
+
+    "enrolled": 60,
+    "totalLectures": 35,
+    "skillLevel": "Beginner",
+    "language": "Bengali",
+
+    "courseDescriptionFull": "Traditional Bangladeshi cooking lessons covering spices, recipes...",
+    "whatWillILearn": [
+      "Spice mixing",
+      "Cooking techniques",
+      "Rice & curry dishes",
+      "Cultural recipes"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Basics of Spices", "lessons": 3 },
+      { "module": 2, "title": "Popular Recipes", "lessons": 6 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Rumana is a home chef with 12 years of cooking experience...",
+      "coursesTaught": 3,
+      "totalStudents": 200
+    },
+
+    "reviews": [
+      { "user": "Mishu N.", "rating": 5, "comment": "Very tasty recipes!" }
+    ]
   },
+
   {
     "skillId": 7,
     "skillName": "Photography for Beginners",
@@ -81,8 +325,46 @@
     "slotsAvailable": 3,
     "description": "Learn how to take stunning photos with your DSLR or smartphone.",
     "image": "https://i.postimg.cc/example7.png",
-    "category": "Photography"
+    "category": "Photography",
+
+    "originalPrice": 120,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "2 hours",
+    "lessonTime": "9:00 AM - 1:00 PM",
+    "classTime": "4:00 PM - 6:00 PM",
+    "startTime": "Monday - Friday",
+    "totalStudents": "20+",
+
+    "enrolled": 100,
+    "totalLectures": 80,
+    "skillLevel": "Basic",
+    "language": "English",
+
+    "courseDescriptionFull": "Learn photography from composition to lighting...",
+    "whatWillILearn": [
+      "Camera settings",
+      "Lighting techniques",
+      "Editing basics",
+      "Creating your style"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "DSLR Intro", "lessons": 5 },
+      { "module": 2, "title": "Light & Exposure", "lessons": 8 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Farhan is an award-winning photographer...",
+      "coursesTaught": 5,
+      "totalStudents": 500
+    },
+
+    "reviews": [
+      { "user": "Aliya B.", "rating": 5, "comment": "Excellent instruction!" }
+    ]
   },
+
   {
     "skillId": 8,
     "skillName": "Basic Graphic Design",
@@ -93,8 +375,50 @@
     "slotsAvailable": 4,
     "description": "Understand design principles and start creating professional-looking posters and logos.",
     "image": "https://i.postimg.cc/example8.png",
-    "category": "Design"
+    "category": "Design",
+
+    "originalPrice": 90,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1.5 hours",
+    "lessonTime": "10:00 AM - 1:00 PM",
+    "classTime": "3:00 PM - 4:30 PM",
+    "startTime": "Monday - Thursday",
+    "totalStudents": "25+",
+
+    "enrolled": 130,
+    "totalLectures": 50,
+    "skillLevel": "Beginner",
+    "language": "English",
+
+    "courseDescriptionFull": "Learn design fundamentals and tools like Canva & Photoshop...",
+    "whatWillILearn": [
+      "Color psychology",
+      "Logo design",
+      "Poster layout",
+      "Typography basics"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Design Basics", "lessons": 5 },
+      { "module": 2, "title": "Tools Overview", "lessons": 8 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Mehnaz is a graphic designer with 6+ years experience...",
+      "coursesTaught": 4,
+      "totalStudents": 450
+    },
+
+    "reviews": [
+      {
+        "user": "Abid R.",
+        "rating": 5,
+        "comment": "Very helpful for beginners!"
+      }
+    ]
   },
+
   {
     "skillId": 9,
     "skillName": "Public Speaking Workshop",
@@ -105,8 +429,50 @@
     "slotsAvailable": 6,
     "description": "Gain confidence and improve your public speaking and presentation skills.",
     "image": "https://i.postimg.cc/example9.png",
-    "category": "Communication"
+    "category": "Communication",
+
+    "originalPrice": 70,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1 hour",
+    "lessonTime": "8:00 AM - 10:00 AM",
+    "classTime": "5:00 PM - 6:00 PM",
+    "startTime": "Friday - Sunday",
+    "totalStudents": "30+",
+
+    "enrolled": 90,
+    "totalLectures": 35,
+    "skillLevel": "Beginner",
+    "language": "English",
+
+    "courseDescriptionFull": "Boost confidence with practical speaking exercises...",
+    "whatWillILearn": [
+      "Presentation structure",
+      "Voice control",
+      "Confidence building",
+      "Audience engagement"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Basics of Speaking", "lessons": 4 },
+      { "module": 2, "title": "Body Language", "lessons": 5 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Arif is a professional speaker and trainer...",
+      "coursesTaught": 3,
+      "totalStudents": 350
+    },
+
+    "reviews": [
+      {
+        "user": "Nabila T.",
+        "rating": 5,
+        "comment": "Very motivating workshop!"
+      }
+    ]
   },
+
   {
     "skillId": 10,
     "skillName": "Basic Sewing and Stitching",
@@ -117,8 +483,50 @@
     "slotsAvailable": 7,
     "description": "Learn essential sewing techniques for daily household and creative projects.",
     "image": "https://i.postimg.cc/example10.png",
-    "category": "Crafts"
+    "category": "Crafts",
+
+    "originalPrice": 40,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1 hour",
+    "lessonTime": "7:00 AM - 10:00 AM",
+    "classTime": "2:00 PM - 3:00 PM",
+    "startTime": "Everyday",
+    "totalStudents": "20+",
+
+    "enrolled": 70,
+    "totalLectures": 20,
+    "skillLevel": "Basic",
+    "language": "Bengali",
+
+    "courseDescriptionFull": "Learn practical sewing skills for home use and creativity...",
+    "whatWillILearn": [
+      "Basic stitches",
+      "Threading methods",
+      "Repairing clothes",
+      "Button sewing"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Hand Sewing", "lessons": 3 },
+      { "module": 2, "title": "Machine Sewing", "lessons": 4 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Shila is a stitching expert with 15 years experience...",
+      "coursesTaught": 4,
+      "totalStudents": 220
+    },
+
+    "reviews": [
+      {
+        "user": "Shanta B.",
+        "rating": 5,
+        "comment": "Easy to understand lessons!"
+      }
+    ]
   },
+
   {
     "skillId": 11,
     "skillName": "Mobile App Development with React Native",
@@ -129,8 +537,50 @@
     "slotsAvailable": 2,
     "description": "Build cross-platform mobile apps using React Native and Firebase.",
     "image": "https://i.postimg.cc/example11.png",
-    "category": "Technology"
+    "category": "Technology",
+
+    "originalPrice": 180,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "2.5 hours",
+    "lessonTime": "9:00 AM - 2:00 PM",
+    "classTime": "6:00 PM - 8:00 PM",
+    "startTime": "Monday - Friday",
+    "totalStudents": "15+",
+
+    "enrolled": 200,
+    "totalLectures": 100,
+    "skillLevel": "Intermediate",
+    "language": "English",
+
+    "courseDescriptionFull": "Learn full-stack mobile development using React Native...",
+    "whatWillILearn": [
+      "React Native basics",
+      "Firebase integration",
+      "Mobile UI/UX",
+      "Publishing apps"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "React Native Fundamentals", "lessons": 10 },
+      { "module": 2, "title": "Backend Integration", "lessons": 12 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Adnan is a senior mobile developer with 10+ years experience...",
+      "coursesTaught": 8,
+      "totalStudents": 1500
+    },
+
+    "reviews": [
+      {
+        "user": "Rakib H.",
+        "rating": 5,
+        "comment": "Very in-depth and practical!"
+      }
+    ]
   },
+
   {
     "skillId": 12,
     "skillName": "Creative Writing for Beginners",
@@ -141,6 +591,47 @@
     "slotsAvailable": 5,
     "description": "Enhance your storytelling and writing skills through guided exercises.",
     "image": "https://i.postimg.cc/example12.png",
-    "category": "Writing"
+    "category": "Writing",
+
+    "originalPrice": 70,
+    "moneyBackGuarantee": "28-Day Money-Back Guarantee",
+
+    "classDuration": "1 hour",
+    "lessonTime": "10:00 AM - 12:00 PM",
+    "classTime": "5:00 PM - 6:00 PM",
+    "startTime": "Wednesday - Sunday",
+    "totalStudents": "18+",
+
+    "enrolled": 75,
+    "totalLectures": 35,
+    "skillLevel": "Beginner",
+    "language": "English",
+
+    "courseDescriptionFull": "Improve writing skills with storytelling, grammar, and creativity lessons...",
+    "whatWillILearn": [
+      "Story structure",
+      "Creative thinking",
+      "Grammar polishing",
+      "Writing discipline"
+    ],
+
+    "curriculum": [
+      { "module": 1, "title": "Basics of Writing", "lessons": 4 },
+      { "module": 2, "title": "Storytelling", "lessons": 5 }
+    ],
+
+    "instructorDetails": {
+      "bio": "Maya is a writer and educator with 7 years of experience...",
+      "coursesTaught": 3,
+      "totalStudents": 250
+    },
+
+    "reviews": [
+      {
+        "user": "Sharmeen A.",
+        "rating": 5,
+        "comment": "Very inspiring course!"
+      }
+    ]
   }
 ]
