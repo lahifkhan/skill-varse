@@ -31,7 +31,7 @@ const Navbar = () => {
       : "hover:text-primary";
 
   return (
-    <div className="bg-base-100 shadow-sm px-6 md:px-16">
+    <div className="bg-base-100 shadow-sm  md:px-16">
       <Mycontainer>
         <div className="navbar">
           {/*  LEFT SIDE  */}

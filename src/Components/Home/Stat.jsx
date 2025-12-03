@@ -16,7 +16,7 @@ const Stat = () => {
         backgroundImage: `url(${statBg})`,
       }}
     >
-      <div className="flex flex-wrap justify-between gap-4 w-11/12 mx-auto px-2 md:px-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 justify-between items-center gap-25 w-11/12 mx-auto px-2 md:px-12">
         {stats.map((stat, index) => (
           <div
             key={index}

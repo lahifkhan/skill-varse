@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 const Banner2 = () => {
   return (
     <div className="bg-gradient-to-r from-[#ffe9e9] via-[#f6f4ff] to-[#e8fffb] py-2">
-      <div className="w-11/12 mx-auto h-[75vh] py-20 px-6 md:px-16  rounded-b-3xl overflow-hidden">
+      <div className="w-11/12 mx-auto md:h-[75vh] py-20 px-6 md:px-16  rounded-b-3xl overflow-hidden">
         <div className="grid grid-cols-1  md:grid-cols-2 items-center gap-10">
           {/* LEFT CONTENT */}
           <div>

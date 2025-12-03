@@ -20,7 +20,7 @@ const FavouriteTopic = () => {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-5 mt-12">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-25 mt-12">
         <div className="flex flex-col items-center space-y-6">
           <img className="w-20 h-20" src={topic5} alt="" />
           <div className="text-center">

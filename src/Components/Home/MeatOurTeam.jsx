@@ -64,7 +64,7 @@ const MeatOurTeam = () => {
         {/* RIGHT INSTRUCTORS GRID */}
         <div className="grid grid-cols-2 gap-6">
           {teamMembers.map((member) => (
-            <div className="relative bg-white rounded-xl shadow-lg border border-purple-200 overflow-hidden hover:shadow-xl duration-300">
+            <div className="w-full relative bg-white rounded-xl shadow-lg border border-purple-200 overflow-hidden hover:shadow-xl duration-300">
               {/* Top Right Icon */}
               <div className="absolute right-3 top-3 z-20 bg-primary text-white p-2 rounded-full">
                 <FaShareAlt size={16} />

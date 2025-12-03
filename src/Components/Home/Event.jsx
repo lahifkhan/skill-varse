@@ -67,11 +67,11 @@ const Event = () => {
         {/*  RIGHT IMAGE COLUMN  */}
         <div className="relative">
           {/* White dotted shapes (top right) */}
-          <div className="absolute -top-10 -right-10 w-32 h-32 bg-white rounded-3xl shadow-lg border border-gray-200 p-4">
+          <div className="hidden md:block absolute -top-10 -right-10 md:w-32 md:h-32 bg-white rounded-3xl shadow-lg border border-gray-200 p-4">
             <div className="w-full h-full bg-[radial-gradient(#000_1px,transparent_1px)] bg-[length:10px_10px] opacity-30 rounded-xl"></div>
           </div>
 
-          <div className="absolute -top-24 right-10 w-40 h-40 bg-white rounded-full shadow-md border border-gray-200 p-6">
+          <div className="hidden md:block absolute -top-24 right-10 md:w-40 md:h-40 bg-white rounded-full shadow-md border border-gray-200 p-6">
             <div className="w-full h-full bg-[radial-gradient(#000_1px,transparent_1px)] bg-[length:10px_10px] opacity-20 rounded-full"></div>
           </div>
 
@@ -88,7 +88,7 @@ const Event = () => {
           </div>
 
           {/* Red geometric shapes bottom right */}
-          <div className="absolute -bottom-12 -right-10 w-36 h-36 border-4 border-red-500 rotate-12 rounded-xl"></div>
+          <div className="hidden md:block absolute -bottom-12 -right-10 md:w-36 md:h-36 border-4 border-red-500 rotate-12 rounded-xl"></div>
 
           <div className="absolute -bottom-20 right-0 bg-white w-20 h-20 rounded-xl shadow-md"></div>
         </div>

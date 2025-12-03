@@ -5,7 +5,7 @@ const EventsCard = ({ event }) => {
   const { image, date, month, title, description, time, location } = event;
 
   return (
-    <div className="bg-base-100 rounded-t-xl rounded-b-3xl shadow-md overflow-hidden max-w-sm border border-base-300">
+    <div className="bg-base-100 rounded-t-xl rounded-b-3xl shadow-md overflow-hidden  border border-base-300">
       {/* Image with Date Badge */}
       <div className="relative">
         <img src={image} alt={title} className="w-full h-48 object-cover" />
