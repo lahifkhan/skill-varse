@@ -4,7 +4,7 @@ const Banner2 = () => {
   return (
     <div className="bg-gradient-to-r from-[#ffe9e9] via-[#f6f4ff] to-[#e8fffb] py-2">
       <div className="w-11/12 mx-auto h-[75vh] py-20 px-6 md:px-16  rounded-b-3xl overflow-hidden">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+        <div className="grid grid-cols-1  md:grid-cols-2 items-center gap-10">
           {/* LEFT CONTENT */}
           <div>
             <span className="text-sm bg-green-100 text-green-700 px-3 py-1 rounded-full font-medium">
@@ -20,7 +20,7 @@ const Banner2 = () => {
             </p>
 
             {/* SEARCH BAR */}
-            <div className="mt-6 flex items-center bg-white shadow-md rounded-full p-2 max-w-md">
+            <div className="mt-6 flex items-center bg-base-100 shadow-md rounded-full p-2 max-w-md">
               <input
                 type="text"
                 placeholder="What do you want to learn today?"

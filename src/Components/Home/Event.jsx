@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Event = () => {
   return (
-    <div className="relative bg-white py-20 mb-8 mt-20">
+    <div className="relative bg-base-100 py-20 mb-8 mt-20">
       {/* RIGHT SIDE DASHED BORDER */}
       <div className="absolute top-0 right-0 h-full border-r-2 border-dashed border-blue-400"></div>
 
@@ -24,17 +24,17 @@ const Event = () => {
           </p>
 
           {/* Main Title */}
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-3 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-base-content mt-3 leading-tight">
             Our Best Upcoming Events
           </h1>
 
           {/* Description */}
-          <p className="text-gray-600 mt-6">
+          <p className="text-base-content/70 mt-6">
             Join our most anticipated educational and networking events designed
             to elevate your skills and career.** Discover workshops, seminars,
             and conferences led by industry experts across various fields.
           </p>
-          <p className="text-gray-600 mt-3">
+          <p className="text-base-content/70 mt-3">
             Don't miss out on these unique opportunities to connect with peers,
             learn the latest trends, and take the next step in your professional
             journey. Reserve your spot today!

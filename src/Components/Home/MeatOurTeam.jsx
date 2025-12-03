@@ -78,8 +78,10 @@ const MeatOurTeam = () => {
               />
 
               {/* NAME BOX OVER IMAGE */}
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white shadow-lg rounded-xl px-4 py-3 w-[85%] z-20">
-                <h3 className="font-semibold text-lg">{member.name}</h3>
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-base-100 shadow-lg rounded-xl px-4 py-3 w-[85%] z-20">
+                <h3 className="font-semibold text-base-content text-lg">
+                  {member.name}
+                </h3>
                 <p className="text-gray-500 text-sm">{member.role}</p>
               </div>
             </div>
