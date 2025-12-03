@@ -12,6 +12,7 @@ import FavouriteTopic from "../Components/Home/FavouriteTopic";
 import Stat from "../Components/Home/Stat";
 import MeatOurTeam from "../Components/Home/MeatOurTeam";
 import Banner2 from "../Components/Home/banner2";
+import Event from "../Components/Home/Event";
 
 const Home = () => {
   const skillsData = useLoaderData();
@@ -49,19 +50,20 @@ const Home = () => {
         </section>
 
         <MeatOurTeam></MeatOurTeam>
+        <Event></Event>
       </Mycontainer>
 
       {/* Top rated Provider  */}
-      <TopProvider skillsData={skillsData}></TopProvider>
+      {/* <TopProvider skillsData={skillsData}></TopProvider> */}
 
       {/* Achievement  */}
 
-      <Achievement></Achievement>
+      {/* <Achievement></Achievement> */}
 
       {/* how it work */}
-      <Mycontainer>
+      {/* <Mycontainer>
         <HowItWork></HowItWork>
-      </Mycontainer>
+      </Mycontainer> */}
     </div>
   );
 };

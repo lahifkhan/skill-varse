@@ -5,6 +5,7 @@ import topic4 from "../../assets/topic/topic4.png";
 import topic3 from "../../assets/topic/topic3.png";
 import topic2 from "../../assets/topic/topic2.png";
 import topic1 from "../../assets/topic/topic1.png";
+import { Link } from "react-router";
 
 const FavouriteTopic = () => {
   return (
@@ -14,7 +15,9 @@ const FavouriteTopic = () => {
         <h1 className="text-3xl md:text-4xl font-extrabold">
           Favorite topics to learn
         </h1>
-        <button className="btn btn-primary">Browse edunity Courses</button>
+        <Link to={"/allSkills"} className="btn btn-primary">
+          Browse edunity Courses
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-5 mt-12">

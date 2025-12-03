@@ -1,4 +1,5 @@
 import { FaShareAlt } from "react-icons/fa";
+import { Link } from "react-router";
 
 const teamMembers = [
   {
@@ -51,9 +52,12 @@ const MeatOurTeam = () => {
             <button className="btn btn-primary rounded-full px-6">
               Contact Us
             </button>
-            <button className="btn btn-outline btn-primary rounded-full px-6">
+            <Link
+              to={"/allSkills"}
+              className="btn btn-outline btn-primary rounded-full px-6"
+            >
               Find Courses
-            </button>
+            </Link>
           </div>
         </div>
 

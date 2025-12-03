@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "date": "08",
+    "month": "October",
+    "title": "Mastering Frontend Frameworks for Modern Web Development",
+    "description": "An intensive workshop covering React, Vue, and Angular best practices for scalable applications.",
+    "time": "11:00 am - 03:00 pm",
+    "location": "Online via Zoom",
+    "image": "https://i.postimg.cc/QCwdN3W6/20485.jpg"
+  },
+  {
+    "id": 2,
+    "date": "15",
+    "month": "November",
+    "title": "Data Science & AI: Predictive Modeling and Machine Learning",
+    "description": "Learn to build and deploy accurate predictive models using Python and popular ML libraries.",
+    "time": "10:00 am - 01:00 pm",
+    "location": "Main Campus, Auditorium A",
+    "image": "https://i.postimg.cc/XNHZDMXL/117698.jpg"
+  },
+  {
+    "id": 3,
+    "date": "03",
+    "month": "December",
+    "title": "Digital Marketing Strategy: SEO, Social Media, and Analytics",
+    "description": "A comprehensive seminar on developing data-driven digital marketing campaigns that convert.",
+    "time": "09:00 am - 12:00 pm",
+    "location": "USA",
+    "image": "https://i.postimg.cc/HLgj7dPj/12035.jpg"
+  },
+  {
+    "id": 4,
+    "date": "22",
+    "month": "January",
+    "title": "UI/UX Design Principles: Creating User-Centric Applications",
+    "description": "Explore the fundamentals of user experience (UX) and user interface (UI) design for intuitive apps.",
+    "time": "02:00 pm - 05:00 pm",
+    "location": "Online via Google Meet",
+    "image": "https://i.postimg.cc/QCwdN3W6/20485.jpg"
+  }
+]

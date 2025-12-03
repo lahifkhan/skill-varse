@@ -54,6 +54,12 @@ const Navbar = () => {
                 <li>
                   <NavLink to={"/allSkills"}>All skills</NavLink>
                 </li>
+                <li>
+                  <NavLink to={"/about"}>About</NavLink>
+                </li>
+                <li>
+                  <NavLink to={"/events"}>Event</NavLink>
+                </li>
               </ul>
             </div>
             <div className="flex items-center">
@@ -77,6 +83,12 @@ const Navbar = () => {
 
               <li>
                 <NavLink to={"/allSkills"}>All skills</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/about"}>About</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/events"}>Event</NavLink>
               </li>
             </ul>
           </div>

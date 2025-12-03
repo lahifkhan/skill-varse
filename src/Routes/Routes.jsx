@@ -12,6 +12,8 @@ import Loading from "../Pages/Loading";
 import PageNotFound from "../Components/PageNotFound";
 import AllSkills from "../Pages/AllSkills";
 import CourseDetails from "../Pages/CourseDetails";
+import DetailsAbout from "../Pages/DetailsAbout";
+import AllEvents from "../Pages/AllEvents";
 
 export const router = createBrowserRouter([
   {
@@ -59,6 +61,16 @@ export const router = createBrowserRouter([
         path: "/allSkills",
         Component: AllSkills,
         loader: () => fetch("/skills.json"),
+      },
+      {
+        path: "/about",
+        Component: DetailsAbout,
+      },
+
+      {
+        path: "/events",
+        Component: AllEvents,
+        loader: () => fetch("/event.json"),
       },
     ],
   },
