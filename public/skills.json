@@ -7,7 +7,7 @@
     "price": 20,
     "rating": 4.8,
     "slotsAvailable": 3,
-    "description": "Acoustic guitar classes for complete beginners.",
+    "description": "Learn guitar from the absolute basics with step-by-step guidance We cover posture, hand positions, finger exercises, and beginner chords.Each lesson is designed to help you gradually build confidence and rhythm.Perfect for  starting their musical journey from scratch.",
     "image": "https://i.postimg.cc/kgbcf44c/course2.png",
     "category": "Music",
 
@@ -61,7 +61,7 @@
     "price": 10,
     "rating": 4.6,
     "slotsAvailable": 5,
-    "description": "Conversational English sessions for non-native speakers.",
+    "description": "Improve your spoken English through natural conversation sessions.We focus on pronunciation, fluency, and real-life speaking scenarios.Yu will practice dialogues, vocabulary building, and confidence skills.Great for students, job seekers, and anyone wanting to speak better English",
     "image": "https://i.postimg.cc/c4KMLHfX/course1.png",
     "category": "Language",
 
@@ -115,7 +115,7 @@
     "price": 25,
     "rating": 4.9,
     "slotsAvailable": 4,
-    "description": "Learn the basics of HTML, CSS, and JavaScript to start your web development journey.",
+    "description": "Start learning HTML, CSS, and JavaScript in abeginner-friendlyway You will understand layout, styling, interactions, and responsive design.Ideal for beginners who dream of becoming web developers.",
     "image": "https://i.postimg.cc/76s0x8h2/course3.png",
     "category": "Technology",
 
@@ -169,7 +169,7 @@
     "price": 15,
     "rating": 4.7,
     "slotsAvailable": 6,
-    "description": "Start your day with calming yoga stretches and breathing techniques.",
+    "description": "Relax your mind and body with simple and effective yoga routines.  You will learn breathing techniques, stretching, and beginner poses.Each session is designed to improve flexibility and reduce stress. Perfect for students, office workers, and beginners starting fresh.",
     "image": "https://i.postimg.cc/Jz58D1Lv/course4.png",
     "category": "Fitness",
 
@@ -223,8 +223,8 @@
     "price": 30,
     "rating": 4.8,
     "slotsAvailable": 2,
-    "description": "Master the fundamentals of digital painting using Procreate or Photoshop.",
-    "image": "https://i.ibb.co.com/SXdp8X9r/6895588.jpg",
+    "description": "Learn the fundamentals of digital art using Procreate or Photoshop.We focus on brushes, color theory, shading, and character design.Step-by-step lessons help you go from simple sketches to full artworks.Perfect for artists wanting to move into digital drawing.",
+    "image": "https://i.postimg.cc/CKtkH6rT/course5.png",
     "category": "Art",
 
     "originalPrice": 140,
@@ -273,8 +273,8 @@
     "price": 12,
     "rating": 4.5,
     "slotsAvailable": 5,
-    "description": "Learn to cook authentic Bangladeshi meals with simple step-by-step guidance.",
-    "image": "https://i.ibb.co.com/p6NGZ2Gx/bangladeshi-Food.jpg",
+    "description": "Discover the authentic flavors of Bangladeshi home cooking.Learn traditional spice mixing, cooking methods, and classic recipes.We walk you through each dish with easy step-by-step instructions.Perfect for beginners wanting to master Bangladeshi meals.",
+    "image": "https://i.postimg.cc/nhSDpPJW/course6.png",
     "category": "Cooking",
 
     "originalPrice": 80,
@@ -323,8 +323,8 @@
     "price": 22,
     "rating": 4.9,
     "slotsAvailable": 3,
-    "description": "Learn how to take stunning photos with your DSLR or smartphone.",
-    "image": "https://i.postimg.cc/example7.png",
+    "description": "Learn how to take beautiful photos using DSLR or smartphone.We teach lighting, angles, camera settings, and composition basics.Practice real techniques to capture portraits, landscapes, and more.Perfect for new photographers wanting professional-looking shots.",
+    "image": "https://i.postimg.cc/R0nN9Cdj/course7.png",
     "category": "Photography",
 
     "originalPrice": 120,
@@ -373,8 +373,8 @@
     "price": 18,
     "rating": 4.6,
     "slotsAvailable": 4,
-    "description": "Understand design principles and start creating professional-looking posters and logos.",
-    "image": "https://i.postimg.cc/example8.png",
+    "description": "Understand the fundamentals of color, typography, and layout design. Create posters, logos, and social media graphics using design tools. Each lesson helps you turn simple ideas into clean, creative visuals.Perfect for beginners stepping into the design world.",
+    "image": "https://i.postimg.cc/MHBCK4N5/course13.png",
     "category": "Design",
 
     "originalPrice": 90,
@@ -427,8 +427,8 @@
     "price": 16,
     "rating": 4.7,
     "slotsAvailable": 6,
-    "description": "Gain confidence and improve your public speaking and presentation skills.",
-    "image": "https://i.postimg.cc/example9.png",
+    "description": "Build confidence and improve your speaking skills in any situation. Learn how to structure speeches, control your voice, and engage audiences. We practice real speaking exercises to remove fear and hesitation.  Perfect for students, professionals, and anyone wanting strong communication.",
+    "image": "https://i.postimg.cc/85mkP7vg/course9.png",
     "category": "Communication",
 
     "originalPrice": 70,
@@ -481,8 +481,8 @@
     "price": 8,
     "rating": 4.4,
     "slotsAvailable": 7,
-    "description": "Learn essential sewing techniques for daily household and creative projects.",
-    "image": "https://i.postimg.cc/example10.png",
+    "description": "Learn essential sewing skills for home use and creative projects.  We cover threading, basic stitches, repairing clothes, and button sewing.  Each session teaches step-by-step techniques for beginners.Perfect for learners wanting practical and creative sewing ability.",
+    "image": "https://i.postimg.cc/g0vmNxNq/course10.png",
     "category": "Crafts",
 
     "originalPrice": 40,
@@ -535,8 +535,8 @@
     "price": 35,
     "rating": 4.9,
     "slotsAvailable": 2,
-    "description": "Build cross-platform mobile apps using React Native and Firebase.",
-    "image": "https://i.postimg.cc/example11.png",
+    "description": "Start building real mobile apps for Android and iOS using React Native. Learn UI components, navigation, Firebase integration, and deployment.  Hands-on lessons guide you from beginner to publishing-ready apps.Perfect for aspiring mobile developers and tech students.",
+    "image": "https://i.postimg.cc/d3DMP3mT/course11.png",
     "category": "Technology",
 
     "originalPrice": 180,
@@ -590,7 +590,7 @@
     "rating": 4.8,
     "slotsAvailable": 5,
     "description": "Enhance your storytelling and writing skills through guided exercises.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://i.postimg.cc/nc6ygHsd/course12.png",
     "category": "Writing",
 
     "originalPrice": 70,
@@ -607,7 +607,7 @@
     "skillLevel": "Beginner",
     "language": "English",
 
-    "courseDescriptionFull": "Improve writing skills with storytelling, grammar, and creativity lessons...",
+    "courseDescriptionFull": "Improve your storytelling skills through guided writing exercises.Learn narrative structure, creativity techniques, and grammar basics. We help you write engaging stories with clarity and emotion.  Perfect for anyone wanting to start creative writing confidently.",
     "whatWillILearn": [
       "Story structure",
       "Creative thinking",

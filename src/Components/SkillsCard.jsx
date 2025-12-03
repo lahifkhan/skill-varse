@@ -1,5 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router";
 
 const SkillsCard = ({ skills }) => {
   return (
@@ -31,9 +32,12 @@ const SkillsCard = ({ skills }) => {
 
         {/* Button ALWAYS bottom */}
         <div className="flex justify-end">
-          <button className="btn btn-primary btn-sm rounded-full px-6">
+          <Link
+            to={`/skills/${skills.skillId}`}
+            className="btn btn-primary btn-sm rounded-full px-6"
+          >
             Details →
-          </button>
+          </Link>
         </div>
       </div>
     </div>

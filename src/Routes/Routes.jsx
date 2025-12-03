@@ -3,13 +3,15 @@ import Home from "../Pages/Home";
 import Layouts from "../Layouts/Layouts";
 import Register from "../Pages/Register";
 import LogIn from "../Pages/LogIn";
-import SkillsDetails from "../Pages/SkillsDetails";
+
 import Myprofile from "../Pages/Myprofile";
 import UpdateProfile from "../Pages/UpdateProfile";
 import ForgetPass from "../Pages/ForgetPass";
 import PrivateRoutes from "./PrivateRoutes";
 import Loading from "../Pages/Loading";
 import PageNotFound from "../Components/PageNotFound";
+import AllSkills from "../Pages/AllSkills";
+import CourseDetails from "../Pages/CourseDetails";
 
 export const router = createBrowserRouter([
   {
@@ -35,11 +37,7 @@ export const router = createBrowserRouter([
 
       {
         path: "/skills/:skillId",
-        element: (
-          <PrivateRoutes>
-            <SkillsDetails></SkillsDetails>
-          </PrivateRoutes>
-        ),
+        element: <CourseDetails></CourseDetails>,
         loader: () => fetch("/skills.json"),
       },
 
@@ -55,6 +53,12 @@ export const router = createBrowserRouter([
       {
         path: "/forgetPass",
         Component: ForgetPass,
+      },
+
+      {
+        path: "/allSkills",
+        Component: AllSkills,
+        loader: () => fetch("/skills.json"),
       },
     ],
   },

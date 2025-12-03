@@ -8,7 +8,7 @@ import topic1 from "../../assets/topic/topic1.png";
 
 const FavouriteTopic = () => {
   return (
-    <div className="mt-20 pb-8 px-2 md:px-16">
+    <div className="mt-10 pb-8 px-2 md:px-16">
       <p className="text-primary font-bold text-xl mb-2">Category</p>
       <div className="flex flex-col gap-2 md:gap-0 md:flex-row  justify-between">
         <h1 className="text-3xl md:text-4xl font-extrabold">
