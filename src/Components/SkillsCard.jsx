@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const SkillsCard = ({ skills }) => {
   return (
-    <div className="w-full max-w-sm bg-white rounded-2xl shadow-lg border border-purple-200 overflow-hidden hover:shadow-xl duration-300">
+    <div className="w-full max-w-sm bg-base-100 rounded-2xl shadow-lg  overflow-hidden hover:shadow-xl duration-300">
       {/* Image */}
       <div>
         <img
@@ -15,8 +15,7 @@ const SkillsCard = ({ skills }) => {
       </div>
 
       {/* Content */}
-      {/* FIXED HEIGHT + FLEX = perfect alignment */}
-      <div className="p-5 flex flex-col justify-between h-[200px]">
+      <div className="p-5 flex flex-col justify-between h-[200px] text-base-content">
         {/* Rating + Price */}
         <div className="flex items-center justify-between">
           <p className="flex items-center gap-1 text-red-500 font-medium">
@@ -30,7 +29,7 @@ const SkillsCard = ({ skills }) => {
           {skills.skillName}
         </h2>
 
-        {/* Button ALWAYS bottom */}
+        {/* Button */}
         <div className="flex justify-end">
           <Link
             to={`/skills/${skills.skillId}`}

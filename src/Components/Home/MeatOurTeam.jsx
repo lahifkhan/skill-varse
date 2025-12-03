@@ -49,9 +49,9 @@ const MeatOurTeam = () => {
           </p>
 
           <div className="flex gap-4">
-            <button className="btn btn-primary rounded-full px-6">
+            <Link to={"/contact"} className="btn btn-primary rounded-full px-6">
               Contact Us
-            </button>
+            </Link>
             <Link
               to={"/allSkills"}
               className="btn btn-outline btn-primary rounded-full px-6"

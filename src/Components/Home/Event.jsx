@@ -3,12 +3,12 @@ import { Link } from "react-router";
 
 const Event = () => {
   return (
-    <div className="relative bg-white py-20">
+    <div className="relative bg-white py-20 mb-8 mt-20">
       {/* RIGHT SIDE DASHED BORDER */}
       <div className="absolute top-0 right-0 h-full border-r-2 border-dashed border-blue-400"></div>
 
       <div className="max-w-6xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-16 relative">
-        {/* ---------------- LEFT CONTENT COLUMN ---------------- */}
+        {/*  LEFT CONTENT COLUMN */}
         <div className="relative">
           {/* Chevron Pattern */}
           <div className="flex gap-1 mb-3">
@@ -64,7 +64,7 @@ const Event = () => {
           </div>
         </div>
 
-        {/* ---------------- RIGHT IMAGE COLUMN ---------------- */}
+        {/*  RIGHT IMAGE COLUMN  */}
         <div className="relative">
           {/* White dotted shapes (top right) */}
           <div className="absolute -top-10 -right-10 w-32 h-32 bg-white rounded-3xl shadow-lg border border-gray-200 p-4">

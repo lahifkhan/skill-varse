@@ -1,4 +1,5 @@
 import { FaLeaf } from "react-icons/fa";
+import { Link } from "react-router";
 
 const DetailsAbout = () => {
   return (
@@ -74,9 +75,12 @@ const DetailsAbout = () => {
           </div>
 
           {/* Call To Action */}
-          <button className="btn btn-primary mt-6 w-fit px-8 py-3 rounded-lg">
-            Admission Open
-          </button>
+          <Link
+            to={"/allSkills"}
+            className="btn btn-primary mt-6 w-fit px-8 py-3 rounded-lg"
+          >
+            Find Courses
+          </Link>
         </div>
       </div>
     </section>

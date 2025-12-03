@@ -14,6 +14,7 @@ import AllSkills from "../Pages/AllSkills";
 import CourseDetails from "../Pages/CourseDetails";
 import DetailsAbout from "../Pages/DetailsAbout";
 import AllEvents from "../Pages/AllEvents";
+import Contact from "../Pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -71,6 +72,11 @@ export const router = createBrowserRouter([
         path: "/events",
         Component: AllEvents,
         loader: () => fetch("/event.json"),
+      },
+
+      {
+        path: "/contact",
+        Component: Contact,
       },
     ],
   },

@@ -7,8 +7,8 @@ import Loading from "../Pages/Loading";
 const Layouts = () => {
   const { state } = useNavigate();
   return (
-    <div className="bg-[#EDFBF8]">
-      <header>
+    <div className="bg-base-100">
+      <header className="sticky top-0 z-50">
         <Navbar></Navbar>
       </header>
       <main>
