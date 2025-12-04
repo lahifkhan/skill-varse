@@ -1,5 +1,6 @@
 import { FaShareAlt } from "react-icons/fa";
 import { Link } from "react-router";
+import "aos/dist/aos.css";
 
 const teamMembers = [
   {
@@ -28,12 +29,12 @@ const teamMembers = [
   },
 ];
 
-const MeatOurTeam = () => {
+const MeetOurTeam = () => {
   return (
     <div className="w-full pb-8 mt-20 px-6 md:px-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* LEFT TEXT SECTION */}
-        <div>
+        <div data-aos="fade-right" data-aos-duration="800">
           <button className="px-4 py-2 rounded-full border border-primary text-primary font-medium mb-5">
             OUR INSTRUCTORS
           </button>
@@ -49,10 +50,17 @@ const MeatOurTeam = () => {
           </p>
 
           <div className="flex gap-4">
-            <Link to={"/contact"} className="btn btn-primary rounded-full px-6">
+            <Link
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              to={"/contact"}
+              className="btn btn-primary rounded-full px-6"
+            >
               Contact Us
             </Link>
             <Link
+              data-aos="zoom-in"
+              data-aos-delay="200"
               to={"/allSkills"}
               className="btn btn-outline btn-primary rounded-full px-6"
             >
@@ -63,8 +71,13 @@ const MeatOurTeam = () => {
 
         {/* RIGHT INSTRUCTORS GRID */}
         <div className="grid grid-cols-2 gap-6">
-          {teamMembers.map((member) => (
-            <div className="w-full relative bg-white rounded-xl shadow-lg border border-purple-200 overflow-hidden hover:shadow-xl duration-300">
+          {teamMembers.map((member, idx) => (
+            <div
+              key={member.id}
+              data-aos="fade-up"
+              data-aos-delay={idx * 100}
+              className="w-full relative bg-white rounded-xl shadow-lg border border-purple-200 overflow-hidden hover:shadow-xl duration-300"
+            >
               {/* Top Right Icon */}
               <div className="absolute right-3 top-3 z-20 bg-primary text-white p-2 rounded-full">
                 <FaShareAlt size={16} />
@@ -92,4 +105,4 @@ const MeatOurTeam = () => {
   );
 };
 
-export default MeatOurTeam;
+export default MeetOurTeam;
